@@ -1,0 +1,46 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+          sample_3.1                D7-50
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739668.768026                    0
+
+              File:         \D7-50\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2                DC IV
+
+      Measurement ID             SeriesID
+       739668.768145                    0
+
+              File:         \D7-50\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3                DC IV
+
+      Measurement ID             SeriesID
+       739668.768259                    0
+
+              File:         \D7-50\3.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   4                DC IV
+
+      Measurement ID             SeriesID
+       739668.768423                    0
+
+              File:         \D7-50\4.data
+
+______________________________________________________
+
