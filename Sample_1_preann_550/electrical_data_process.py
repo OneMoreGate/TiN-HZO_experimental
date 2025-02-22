@@ -1,6 +1,5 @@
 import matplotlib
 from matplotlib import pyplot as plt
-import matplotlib.axes
 from matplotlib.collections import LineCollection
 import pandas as pd 
 import numpy as np 
@@ -38,7 +37,7 @@ class Measurments():
         return '\\'.join([self.main_file_path] + list)
 
     # считывание данных об измерениях из файлов во вложенных директориях
-    def _create_dict_of_measurments(self, return_dict: bool = False) -> None | dict:
+    def _create_dict_of_measurments(self) -> None:
         self._find_contacts_folder()
         if len(self.contacts_list) == 0:
             raise ValueError(f'directory \'{self.main_folder}\' does not contain subdirectories')
@@ -54,16 +53,10 @@ class Measurments():
                     measur_type = '_'.join(file.readlines()[1].split()[1:3])
                 contact_measurs_type[j.replace('.data', '')] = measur_type
             self.dict_of_measurments[i] = contact_measurs_type
-        if return_dict == True:
-            return self.dict_of_measurments
         
     # возврат словаря с измерениями
     def get_dict_of_measurments(self)-> dict:
-        if hasattr(self, 'dict_of_measurments'):
-            return self.dict_of_measurments
-        else:
-            self._create_dict_of_measurments()
-            return self.dict_of_measurments
+        return self.dict_of_measurments
         
     # абсолютный путь к указанной папке
     def get_abspath(self) -> str:
@@ -73,16 +66,13 @@ class Measurments():
     def get_contact_dict(self, contact_name: str | int) -> dict:
         if not isinstance(contact_name, str | int):
             raise ValueError(f'contact_name must be str or int type')
-        elif not hasattr(self, 'dict_of_measurments'):
-            self._create_dict_of_measurments()
         elif str(contact_name) not in list(self.dict_of_measurments.keys()):
             raise ValueError(f'{contact_name} not exist in {self.main_folder}')
-        return {str(contact_name) :self.dict_of_measurments[str(contact_name)]}
+        else:
+            return {str(contact_name) :self.dict_of_measurments[str(contact_name)]}
     
     # удаление папки или папок
-    def delete_contacts(self, contact_name: str | list, return_dict: bool = False) -> dict | None:
-        if not hasattr(self, 'dict_of_measurments'):
-            self._create_dict_of_measurments()
+    def delete_contacts(self, contact_name: str | list) -> None:
         contact_from_dict = list(self.dict_of_measurments.keys())
         existed_contact = []
         # проверка типов и существования
@@ -98,13 +88,9 @@ class Measurments():
                 existed_contact.append(i)
         for i in existed_contact:
             del self.dict_of_measurments[i]
-        if return_dict == True:
-            return self.dict_of_measurments
     
     # удаление измерений из контакта 
     def delete_measurments(self, del_dict: dict) -> None:
-        if not hasattr(self, 'dict_of_measurments'):
-            self._create_dict_of_measurments()
         del_dict_keys = list(del_dict.keys())
         all_dict_keys = list(self.dict_of_measurments.keys())
         for contact in del_dict_keys:
