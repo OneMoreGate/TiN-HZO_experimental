@@ -1,0 +1,196 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+          sample_4.1             N10-25-C
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739688.759675                    0
+
+              File:      \N10-25-C\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2                DC IV
+
+      Measurement ID             SeriesID
+       739688.759871                    0
+
+              File:      \N10-25-C\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3               PQPUND
+
+      Measurement ID                     
+       739688.759977                     
+
+              File:      \N10-25-C\3.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   4               PQPUND
+
+      Measurement ID                     
+       739688.760054                     
+
+              File:      \N10-25-C\4.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   5               PQPUND
+
+      Measurement ID                     
+       739688.760138                     
+
+              File:      \N10-25-C\5.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   6               PQPUND
+
+      Measurement ID                     
+       739688.760218                     
+
+              File:      \N10-25-C\6.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   7               PQPUND
+
+      Measurement ID                     
+       739688.760318                     
+
+              File:      \N10-25-C\7.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   8               PQPUND
+
+      Measurement ID                     
+       739688.760412                     
+
+              File:      \N10-25-C\8.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   9               PQPUND
+
+      Measurement ID                     
+       739688.760501                     
+
+              File:      \N10-25-C\9.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  10               PQPUND
+
+      Measurement ID                     
+       739688.760630                     
+
+              File:     \N10-25-C\10.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  11               PQPUND
+
+      Measurement ID                     
+       739688.760750                     
+
+              File:     \N10-25-C\11.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  12               PQPUND
+
+      Measurement ID                     
+       739688.760919                     
+
+              File:     \N10-25-C\12.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  13           PUNDDouble
+
+      Measurement ID                     
+       739688.761802                     
+
+              File:     \N10-25-C\13.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  14           PUNDDouble
+
+      Measurement ID                     
+       739688.761918                     
+
+              File:     \N10-25-C\14.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  15           PUNDDouble
+
+      Measurement ID                     
+       739688.762059                     
+
+              File:     \N10-25-C\15.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  16           PUNDDouble
+
+      Measurement ID                     
+       739688.762336                     
+
+              File:     \N10-25-C\16.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  17           CVSweepNew
+
+      Measurement ID             SeriesID
+       739688.763204                    0
+
+              File:     \N10-25-C\17.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  18           CVSweepNew
+
+      Measurement ID             SeriesID
+       739688.763733                    0
+
+              File:     \N10-25-C\18.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  19           CVSweepNew
+
+      Measurement ID             SeriesID
+       739688.764247                    0
+
+              File:     \N10-25-C\19.data
+
+______________________________________________________
+

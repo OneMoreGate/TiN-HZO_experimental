@@ -1,0 +1,26 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+          sample_4.1              I10-100
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739688.768704                    0
+
+              File:       \I10-100\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2                DC IV
+
+      Measurement ID             SeriesID
+       739688.768780                    0
+
+              File:       \I10-100\2.data
+
+______________________________________________________
+
