@@ -154,25 +154,46 @@ class DC_IV():
         return data
         
     # вызвращает словарь со значениями токов во включенном и выключенном состоянии на основе списка измерений
-    def get_on_off_current(self, contact: str | int, check_voltage: float) -> dict:
+    def get_on_off_current(self, contact: str | int, check_voltage: float, measurs: list = None) -> dict:
         I_on = []
         I_off = []
         I_on_off = []
         contact = self.__contact_errors(contact)
-        for measur in self.__full_DC_IV_dict[contact]:
-            Voltage, Current = self.get_single_data(contact, measur)
-            if check_voltage not in list(Voltage):
-                print(f'value V = {check_voltage} is not exist in file \'{measur}.data\' from \'{contact}\' contact')
-                continue
-            else:
-                try:
-                    a, b = Current.loc[Voltage == check_voltage]
-                    I_on.append(a)
-                    I_off.append(b)
-                    I_on_off.append(a/b)
-                except:
-                    print(f'Unexpected error in file \'{measur}.data\' from \'{contact}\' folder')
+        if measurs == None:
+            for measur in self.__full_DC_IV_dict[contact]:
+                Voltage, Current = self.get_single_data(contact, measur)
+                if check_voltage not in list(Voltage):
+                    print(f'value V = {check_voltage} is not exist in file \'{measur}.data\' from \'{contact}\' contact')
                     continue
+                else:
+                    try:
+                        a, b = Current.loc[Voltage == check_voltage]
+                        I_on.append(a)
+                        I_off.append(b)
+                        I_on_off.append(a/b)
+                    except:
+                        print(f'Unexpected error in file \'{measur}.data\' from \'{contact}\' folder')
+                        continue
+        else:
+            if not isinstance(measurs, list):
+                raise TypeError(f'measurs must be list type not {type(measurs)}')
+            for measur in measurs:
+                if not isinstance(measur, int):
+                    raise TypeError(f'measurs elements must be int type not {type(measur)}')
+                Voltage, Current = self.get_single_data(contact, measur)
+                if check_voltage not in list(Voltage):
+                    print(f'value V = {check_voltage} is not exist in file \'{measur}.data\' from \'{contact}\' contact')
+                    continue
+                else:
+                    try:
+                        a, b = Current.loc[Voltage == check_voltage]
+                        I_on.append(a)
+                        I_off.append(b)
+                        I_on_off.append(a/b)
+                    except:
+                        print(f'Unexpected error in file \'{measur}.data\' from \'{contact}\' folder')
+                        continue
+
         return {'on': np.array(I_on), 'off': np.array(I_off), 'on_off': np.array(I_on_off)}
     
     # расчитывает напряжения включения и выключения у ВАХ типа ReRAM на основе списка измерений
