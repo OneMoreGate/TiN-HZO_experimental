@@ -333,13 +333,13 @@ class DC_IV():
             raise TypeError('lines must be LineCollection type')
         
     # задает градиент для одного графика
-    def colorize_line(self, ax: axes, which: int = 1, start_color: str = '#ff0000', end_color: str = '#1e00ff'):
+    def colorize_line(self, ax: axes, which: int = 1, start_color: str = '#ff0000', end_color: str = '#1e00ff',**kwargs):
         lines = ax.get_lines()
         V, I = lines[which-1].get_data()
         I = np.abs(I)
         segments = [([V[i], I[i]], [V[i+1], I[i+1]]) for i in range(len(V)-1)]
         color = self.__to_colors(len(segments), start_color, end_color)
-        line_coll = LineCollection(segments)
+        line_coll = LineCollection(segments, **kwargs)
         line_coll.set_colors(color)
         line_coll.set_joinstyle('round')
         ax.add_collection(line_coll)
