@@ -1,0 +1,36 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+        sample_4.2_2              F12-100
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1            NewRelaib
+
+      Measurement ID                 Mode
+       739694.779807                WGFMU
+
+              File:       \F12-100\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2            NewRelaib
+
+      Measurement ID                 Mode
+       739694.781312                WGFMU
+
+              File:       \F12-100\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3            NewRelaib
+
+      Measurement ID                 Mode
+       739694.784178                WGFMU
+
+              File:       \F12-100\3.data
+
+______________________________________________________
+

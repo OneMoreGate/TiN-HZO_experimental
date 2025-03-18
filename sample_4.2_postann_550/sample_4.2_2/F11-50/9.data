@@ -1,0 +1,20 @@
+  Measurement Number     Measurement type
+                   9            NewRelaib
+
+      Measurement ID                 Mode
+       739694.773618                WGFMU
+
+        SetPulseBias        SetPulseWidth       ResetPulseBias      ResetPulseWidth
+                  -3             0.000101                    3             0.000101
+
+           Rise time            Fall Time           Separation
+               1e-06                1e-06               0.0001
+
+              Cycles       Steps in cycle         Test voltage
+                   0               100000                    1
+
+      Step        LRS        HRS
+
+
+
+

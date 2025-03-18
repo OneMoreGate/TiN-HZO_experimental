@@ -1,0 +1,166 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+        sample_4.2_2               F11-50
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739694.771257                    0
+
+              File:        \F11-50\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2                DC IV
+
+      Measurement ID             SeriesID
+       739694.771323                    0
+
+              File:        \F11-50\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3                DC IV
+
+      Measurement ID             SeriesID
+       739694.771393                    0
+
+              File:        \F11-50\3.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   4                DC IV
+
+      Measurement ID             SeriesID
+       739694.771647                   71
+
+              File:        \F11-50\4.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   5                DC IV
+
+      Measurement ID             SeriesID
+       739694.771697                   71
+
+              File:        \F11-50\5.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   6                DC IV
+
+      Measurement ID             SeriesID
+       739694.771749                   71
+
+              File:        \F11-50\6.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   7                DC IV
+
+      Measurement ID             SeriesID
+       739694.771801                   71
+
+              File:        \F11-50\7.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   8                DC IV
+
+      Measurement ID             SeriesID
+       739694.771852                   71
+
+              File:        \F11-50\8.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   9            NewRelaib
+
+      Measurement ID                 Mode
+       739694.773618                WGFMU
+
+              File:        \F11-50\9.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  10            NewRelaib
+
+      Measurement ID                 Mode
+       739694.773726                WGFMU
+
+              File:       \F11-50\10.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  11            NewRelaib
+
+      Measurement ID                 Mode
+       739694.773945                WGFMU
+
+              File:       \F11-50\11.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  12            NewRelaib
+
+      Measurement ID                 Mode
+       739694.774529                WGFMU
+
+              File:       \F11-50\12.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  13            NewRelaib
+
+      Measurement ID                 Mode
+       739694.774818                WGFMU
+
+              File:       \F11-50\13.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  14            NewRelaib
+
+      Measurement ID                 Mode
+       739694.775316                WGFMU
+
+              File:       \F11-50\14.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  15            NewRelaib
+
+      Measurement ID                 Mode
+       739694.775818                WGFMU
+
+              File:       \F11-50\15.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  16            NewRelaib
+
+      Measurement ID                 Mode
+       739694.776394                WGFMU
+
+              File:       \F11-50\16.data
+
+______________________________________________________
+
