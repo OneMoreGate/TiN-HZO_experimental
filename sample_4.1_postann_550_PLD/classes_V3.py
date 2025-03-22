@@ -196,6 +196,18 @@ class DC_IV():
 
         return {'on': np.array(I_on), 'off': np.array(I_off), 'on_off': np.array(I_on_off)}
     
+    def __get_deriv(self, contact: str | int, measur: str | int) -> list:
+        Voltage, Current = self.get_single_data(contact, measur)
+        delta_V = Voltage[1] - Voltage[0]
+        derivative = []
+        for i in range(len(Current) -1):
+            derivative.append((Current[i + 1] - Current[i])/(delta_V))
+        df_deriv = pd.DataFrame([pd.Series(Voltage[:-1]), pd.Series(derivative)]).transpose()
+        df_deriv.rename(columns = {'voltage': 'voltage', 'Unnamed 0': 'derivative'}, inplace=True)
+        pos_voltage_deriv = df_deriv.loc[df_deriv['voltage'] > 0].reset_index(drop = True)
+        neg_voltage_deriv = df_deriv.loc[df_deriv['voltage'] < 0].reset_index(drop = True)
+        return [pos_voltage_deriv, neg_voltage_deriv]
+    
     # расчитывает напряжения включения и выключения у ВАХ типа ReRAM на основе списка измерений
     def get_ReRAM_on_off_voltage(self, contact: str | int, branch: str = 'both') -> dict | list:
         if branch not in ['both', 'b', 'positive', 'p', 'negative', 'n']:
@@ -204,15 +216,7 @@ class DC_IV():
         negative_switch = []
         contact = self.__contact_errors(contact)
         for measur in self.__full_DC_IV_dict[contact]:
-            Voltage, Current = self.get_single_data(contact, measur)
-            delta_V = Voltage[1] - Voltage[0]
-            derivative = []
-            for i in range(len(Current) -1):
-                derivative.append((Current[i + 1] - Current[i])/(delta_V))
-            df_deriv = pd.DataFrame([pd.Series(Voltage[:-1]), pd.Series(derivative)]).transpose()
-            df_deriv.rename(columns = {'voltage': 'voltage', 'Unnamed 0': 'derivative'}, inplace=True)
-            pos_voltage_deriv = df_deriv.loc[df_deriv['voltage'] > 0].reset_index(drop = True)
-            neg_voltage_deriv = df_deriv.loc[df_deriv['voltage'] < 0].reset_index(drop = True)
+            pos_voltage_deriv, neg_voltage_deriv = self.__get_deriv(contact, measur)
             negative_switch.append(neg_voltage_deriv.loc[np.argmax(neg_voltage_deriv['derivative'])]['voltage'])
             positive_switch.append(pos_voltage_deriv.loc[np.argmax(np.abs(pos_voltage_deriv['derivative']))]['voltage'])
         if branch == 'both' or branch == 'b':
@@ -221,6 +225,26 @@ class DC_IV():
             return positive_switch
         elif branch == 'negative' or branch == 'n':
             return negative_switch
+        
+    def get_ts_on_off_voltage(self, contact: str | int, branch: str, center: float) -> dict | list:
+        if branch not in ['both', 'b', 'positive', 'p', 'negative', 'n']:
+            raise ValueError('uncorrect branch value')
+        V_th = []
+        V_hold = []
+        contact = self.__contact_errors(contact)
+        for measur in self.__full_DC_IV_dict[contact]:
+            pos_voltage_deriv, neg_voltage_deriv = self.__get_deriv(contact, measur)
+            if branch == 'n' or branch == 'negative':
+                neg_right = neg_voltage_deriv.loc[neg_voltage_deriv['voltage'] > center].reset_index(drop = True)
+                neg_left = neg_voltage_deriv.loc[neg_voltage_deriv['voltage'] < center].reset_index(drop = True)
+                V_th.append(neg_left.loc[np.argmax(neg_left['derivative'])]['voltage'])
+                V_hold.append(neg_right.loc[np.argmax(neg_right['derivative'])]['voltage'])
+            elif branch == 'p' or branch == 'positive':
+                pos_right = pos_voltage_deriv.loc[pos_voltage_deriv['voltage'] > center].reset_index(drop = True)
+                pos_left = pos_voltage_deriv.loc[pos_voltage_deriv['voltage'] < center].reset_index(drop = True)
+                V_th.append(pos_right.loc[np.argmax(pos_right['derivative'])]['voltage'])
+                V_hold.append(pos_left.loc[np.argmax(pos_left['derivative'])]['voltage'])
+        return [V_th, V_hold]
             
     # рисует одну ВАХ
     def draw_single_plot(self, contact: str | int, measur: str | int, save_path: str = None, cmap: str = 'plasma') -> None:
