@@ -1,0 +1,36 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+                   1                C9-25
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739844.514959                    0
+
+              File:         \C9-25\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2                DC IV
+
+      Measurement ID             SeriesID
+       739844.515125                    0
+
+              File:         \C9-25\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3                DC IV
+
+      Measurement ID             SeriesID
+       739844.515221                    0
+
+              File:         \C9-25\3.data
+
+______________________________________________________
+
