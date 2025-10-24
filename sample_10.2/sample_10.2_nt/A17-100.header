@@ -1,0 +1,646 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+      sample_10.2_nt              A17-100
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739912.870067                    0
+
+              File:       \A17-100\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2                DC IV
+
+      Measurement ID             SeriesID
+       739912.870154                    0
+
+              File:       \A17-100\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3                DC IV
+
+      Measurement ID             SeriesID
+       739912.870228                    0
+
+              File:       \A17-100\3.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   4                DC IV
+
+      Measurement ID             SeriesID
+       739912.870371                   82
+
+              File:       \A17-100\4.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   5                DC IV
+
+      Measurement ID             SeriesID
+       739912.870440                   82
+
+              File:       \A17-100\5.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   6                DC IV
+
+      Measurement ID             SeriesID
+       739912.870509                   82
+
+              File:       \A17-100\6.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   7                DC IV
+
+      Measurement ID             SeriesID
+       739912.870578                   82
+
+              File:       \A17-100\7.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   8                DC IV
+
+      Measurement ID             SeriesID
+       739912.870648                   82
+
+              File:       \A17-100\8.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   9                DC IV
+
+      Measurement ID             SeriesID
+       739912.870719                   82
+
+              File:       \A17-100\9.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  10                DC IV
+
+      Measurement ID             SeriesID
+       739912.870790                   82
+
+              File:      \A17-100\10.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  11                DC IV
+
+      Measurement ID             SeriesID
+       739912.870975                    0
+
+              File:      \A17-100\11.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  12        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.871258                    0
+
+              File:      \A17-100\12.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  13        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.871739                    0
+
+              File:      \A17-100\13.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  14        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.872041                    0
+
+              File:      \A17-100\14.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  15        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.872168                    0
+
+              File:      \A17-100\15.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  16        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.872445                    0
+
+              File:      \A17-100\16.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  17        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.872560                    0
+
+              File:      \A17-100\17.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  18        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.872671                    0
+
+              File:      \A17-100\18.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  19        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.872818                    0
+
+              File:      \A17-100\19.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  20        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.873162                    0
+
+              File:      \A17-100\20.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  21        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.873401                    0
+
+              File:      \A17-100\21.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  22        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.873637                    0
+
+              File:      \A17-100\22.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  23        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.874491                    0
+
+              File:      \A17-100\23.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  24        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.875286                    0
+
+              File:      \A17-100\24.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  25        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.875477                    0
+
+              File:      \A17-100\25.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  26        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.875604                    0
+
+              File:      \A17-100\26.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  27        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.875748                    0
+
+              File:      \A17-100\27.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  28        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.876358                    0
+
+              File:      \A17-100\28.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  29        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.876570                   91
+
+              File:      \A17-100\29.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  30        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.876656                   91
+
+              File:      \A17-100\30.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  31        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.876741                   91
+
+              File:      \A17-100\31.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  32        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.876828                   91
+
+              File:      \A17-100\32.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  33        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.876914                   91
+
+              File:      \A17-100\33.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  34        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.877000                   91
+
+              File:      \A17-100\34.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  35        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.877087                   91
+
+              File:      \A17-100\35.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  36        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.877174                   91
+
+              File:      \A17-100\36.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  37        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.877262                   91
+
+              File:      \A17-100\37.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  38        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.877350                   91
+
+              File:      \A17-100\38.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  39        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.877740                    0
+
+              File:      \A17-100\39.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  40        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.879738                   13
+
+              File:      \A17-100\40.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  41        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.879823                   13
+
+              File:      \A17-100\41.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  42        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.879909                   13
+
+              File:      \A17-100\42.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  43        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.879995                   13
+
+              File:      \A17-100\43.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  44        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.880081                   13
+
+              File:      \A17-100\44.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  45        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.880168                   13
+
+              File:      \A17-100\45.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  46        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.880254                   13
+
+              File:      \A17-100\46.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  47        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.880342                   13
+
+              File:      \A17-100\47.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  48        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.880429                   13
+
+              File:      \A17-100\48.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  49        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.880517                   13
+
+              File:      \A17-100\49.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  50        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.880604                   13
+
+              File:      \A17-100\50.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  51        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.880692                   13
+
+              File:      \A17-100\51.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  52        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.880780                   13
+
+              File:      \A17-100\52.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  53        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.880868                   13
+
+              File:      \A17-100\53.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  54        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.880957                   13
+
+              File:      \A17-100\54.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  55        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.881046                   13
+
+              File:      \A17-100\55.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  56        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.881134                   13
+
+              File:      \A17-100\56.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  57        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.881225                   13
+
+              File:      \A17-100\57.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  58        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.881392                    0
+
+              File:      \A17-100\58.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  59                DC IV
+
+      Measurement ID             SeriesID
+       739912.881727                    0
+
+              File:      \A17-100\59.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  60                DC IV
+
+      Measurement ID             SeriesID
+       739912.881938                    0
+
+              File:      \A17-100\60.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  61                DC IV
+
+      Measurement ID             SeriesID
+       739912.882310                    0
+
+              File:      \A17-100\61.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  62                DC IV
+
+      Measurement ID             SeriesID
+       739912.882380                    0
+
+              File:      \A17-100\62.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  63                DC IV
+
+      Measurement ID             SeriesID
+       739912.882469                    0
+
+              File:      \A17-100\63.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  64                DC IV
+
+      Measurement ID             SeriesID
+       739912.882660                    0
+
+              File:      \A17-100\64.data
+
+______________________________________________________
+

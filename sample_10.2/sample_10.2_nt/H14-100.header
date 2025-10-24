@@ -1,0 +1,46 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+      sample_10.2_nt              H14-100
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739912.843658                    0
+
+              File:       \H14-100\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2                DC IV
+
+      Measurement ID             SeriesID
+       739912.845797                    0
+
+              File:       \H14-100\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3                DC IV
+
+      Measurement ID             SeriesID
+       739912.846240                    0
+
+              File:       \H14-100\3.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   4                DC IV
+
+      Measurement ID             SeriesID
+       739912.855496                    0
+
+              File:       \H14-100\4.data
+
+______________________________________________________
+

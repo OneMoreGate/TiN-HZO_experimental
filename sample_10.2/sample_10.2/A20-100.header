@@ -1,0 +1,46 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+         sample_10.2              A20-100
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739912.804091                    0
+
+              File:       \A20-100\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2                DC IV
+
+      Measurement ID             SeriesID
+       739912.804208                    0
+
+              File:       \A20-100\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3                DC IV
+
+      Measurement ID             SeriesID
+       739912.804289                    0
+
+              File:       \A20-100\3.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   4                DC IV
+
+      Measurement ID             SeriesID
+       739912.804381                    0
+
+              File:       \A20-100\4.data
+
+______________________________________________________
+

@@ -1,0 +1,36 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+         sample_10.2              G20-100
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739912.827730                    0
+
+              File:       \G20-100\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2                DC IV
+
+      Measurement ID             SeriesID
+       739912.827820                    0
+
+              File:       \G20-100\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3                DC IV
+
+      Measurement ID             SeriesID
+       739912.827890                    0
+
+              File:       \G20-100\3.data
+
+______________________________________________________
+

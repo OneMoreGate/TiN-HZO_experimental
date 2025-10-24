@@ -1,0 +1,76 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+         sample_10.2              A12-100
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739912.747796                    0
+
+              File:       \A12-100\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2                DC IV
+
+      Measurement ID             SeriesID
+       739912.748305                    0
+
+              File:       \A12-100\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3                DC IV
+
+      Measurement ID             SeriesID
+       739912.748385                    0
+
+              File:       \A12-100\3.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   4                DC IV
+
+      Measurement ID             SeriesID
+       739912.748473                    0
+
+              File:       \A12-100\4.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   5        DC IV I sweep
+
+      Measurement ID             SeriesID
+       739912.750880                    0
+
+              File:       \A12-100\5.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   6                DC IV
+
+      Measurement ID             SeriesID
+       739912.751264                    0
+
+              File:       \A12-100\6.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   7                DC IV
+
+      Measurement ID             SeriesID
+       739912.751431                    0
+
+              File:       \A12-100\7.data
+
+______________________________________________________
+
