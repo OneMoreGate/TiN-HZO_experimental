@@ -72,6 +72,7 @@ class DC_IV():
     def __collect_full_dict(self) -> None:
         self.__find_contacts()
         self.__full_DC_IV_dict = {}
+        not_empty_contact_list = []
         for contact in self.__contacts_list:
             contact_files_list = []
             for file in os.listdir(self.__join_path([contact])):
@@ -88,7 +89,10 @@ class DC_IV():
                     contact_DC_IV_measurs.append(int(measure.replace('.data', '')))
                 else:
                     continue
-            self.__full_DC_IV_dict[contact] = sorted(contact_DC_IV_measurs)
+            if len(contact_DC_IV_measurs) !=0:
+                not_empty_contact_list.append(contact)
+                self.__full_DC_IV_dict[contact] = sorted(contact_DC_IV_measurs)
+        self.__contacts_list = not_empty_contact_list
 
     # удаление контакта или контактов из словаря с измерениями
     def delete_contacts(self, contact: str | list) -> None:
