@@ -1,0 +1,26 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+       sample_11.2_6               I16-25
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739948.621573                    0
+
+              File:        \I16-25\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2                DC IV
+
+      Measurement ID             SeriesID
+       739948.621693                    0
+
+              File:        \I16-25\2.data
+
+______________________________________________________
+
