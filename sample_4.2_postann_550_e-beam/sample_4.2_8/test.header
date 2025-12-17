@@ -1,0 +1,506 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+        sample_4.2_8                 test
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739956.505463                    0
+
+              File:          \test\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2                DC IV
+
+      Measurement ID             SeriesID
+       739956.505619                    0
+
+              File:          \test\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3                DC IV
+
+      Measurement ID             SeriesID
+       739956.505699                    0
+
+              File:          \test\3.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   4                DC IV
+
+      Measurement ID             SeriesID
+       739956.505787                    0
+
+              File:          \test\4.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   5                DC IV
+
+      Measurement ID             SeriesID
+       739956.506070                    0
+
+              File:          \test\5.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   6                DC IV
+
+      Measurement ID             SeriesID
+       739956.506111                    0
+
+              File:          \test\6.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   7                DC IV
+
+      Measurement ID             SeriesID
+       739956.506286                    0
+
+              File:          \test\7.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   8                DC IV
+
+      Measurement ID             SeriesID
+       739956.506390                   82
+
+              File:          \test\8.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   9                DC IV
+
+      Measurement ID             SeriesID
+       739956.506462                   82
+
+              File:          \test\9.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  10                DC IV
+
+      Measurement ID             SeriesID
+       739956.506536                   82
+
+              File:         \test\10.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  11                DC IV
+
+      Measurement ID             SeriesID
+       739956.506608                   82
+
+              File:         \test\11.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  12                DC IV
+
+      Measurement ID             SeriesID
+       739956.506681                   82
+
+              File:         \test\12.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  13                DC IV
+
+      Measurement ID             SeriesID
+       739956.506755                   82
+
+              File:         \test\13.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  14                DC IV
+
+      Measurement ID             SeriesID
+       739956.506829                   82
+
+              File:         \test\14.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  15                DC IV
+
+      Measurement ID             SeriesID
+       739956.506902                   82
+
+              File:         \test\15.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  16                DC IV
+
+      Measurement ID             SeriesID
+       739956.506975                   82
+
+              File:         \test\16.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  17                DC IV
+
+      Measurement ID             SeriesID
+       739956.507049                   82
+
+              File:         \test\17.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  18                 STDP
+
+      Measurement ID                     
+       739956.508695                     
+
+              File:         \test\18.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  19                DC IV
+
+      Measurement ID             SeriesID
+       739956.508956                    0
+
+              File:         \test\19.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  20                 STDP
+
+      Measurement ID                     
+       739956.509801                     
+
+              File:         \test\20.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  21                 STDP
+
+      Measurement ID                     
+       739956.510381                     
+
+              File:         \test\21.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  22                 STDP
+
+      Measurement ID                     
+       739956.510897                     
+
+              File:         \test\22.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  23                DC IV
+
+      Measurement ID             SeriesID
+       739956.511122                    0
+
+              File:         \test\23.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  24                DC IV
+
+      Measurement ID             SeriesID
+       739956.511250                    0
+
+              File:         \test\24.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  25               OnLine
+
+      Measurement ID                     
+       739956.511651                     
+
+              File:         \test\25.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  26                DC IV
+
+      Measurement ID             SeriesID
+       739956.512129                    0
+
+              File:         \test\26.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  27                DC IV
+
+      Measurement ID             SeriesID
+       739956.512212                    0
+
+              File:         \test\27.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  28               OnLine
+
+      Measurement ID                     
+       739956.512354                     
+
+              File:         \test\28.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  29                DC IV
+
+      Measurement ID             SeriesID
+       739956.513138                    0
+
+              File:         \test\29.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  30               OnLine
+
+      Measurement ID                     
+       739956.513252                     
+
+              File:         \test\30.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  31               OnLine
+
+      Measurement ID                     
+       739956.513932                     
+
+              File:         \test\31.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  32               OnLine
+
+      Measurement ID                     
+       739956.514758                     
+
+              File:         \test\32.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  33                DC IV
+
+      Measurement ID             SeriesID
+       739956.515018                    0
+
+              File:         \test\33.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  34                DC IV
+
+      Measurement ID             SeriesID
+       739956.515162                    0
+
+              File:         \test\34.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  35                DC IV
+
+      Measurement ID             SeriesID
+       739956.515248                    0
+
+              File:         \test\35.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  36                DC IV
+
+      Measurement ID             SeriesID
+       739956.515380                   91
+
+              File:         \test\36.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  37                DC IV
+
+      Measurement ID             SeriesID
+       739956.515453                   91
+
+              File:         \test\37.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  38                DC IV
+
+      Measurement ID             SeriesID
+       739956.515526                   91
+
+              File:         \test\38.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  39                DC IV
+
+      Measurement ID             SeriesID
+       739956.515599                   91
+
+              File:         \test\39.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  40                DC IV
+
+      Measurement ID             SeriesID
+       739956.515673                   91
+
+              File:         \test\40.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  41                DC IV
+
+      Measurement ID             SeriesID
+       739956.515746                   91
+
+              File:         \test\41.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  42                DC IV
+
+      Measurement ID             SeriesID
+       739956.515819                   91
+
+              File:         \test\42.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  43                DC IV
+
+      Measurement ID             SeriesID
+       739956.515893                   91
+
+              File:         \test\43.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  44                DC IV
+
+      Measurement ID             SeriesID
+       739956.515966                   91
+
+              File:         \test\44.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  45                DC IV
+
+      Measurement ID             SeriesID
+       739956.516041                   91
+
+              File:         \test\45.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  46               OnLine
+
+      Measurement ID                     
+       739956.516182                     
+
+              File:         \test\46.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  47               OnLine
+
+      Measurement ID                     
+       739956.516309                     
+
+              File:         \test\47.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  48               OnLine
+
+      Measurement ID                     
+       739956.516794                     
+
+              File:         \test\48.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  49               OnLine
+
+      Measurement ID                     
+       739956.516938                     
+
+              File:         \test\49.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                  50               OnLine
+
+      Measurement ID                     
+       739956.517081                     
+
+              File:         \test\50.data
+
+______________________________________________________
+

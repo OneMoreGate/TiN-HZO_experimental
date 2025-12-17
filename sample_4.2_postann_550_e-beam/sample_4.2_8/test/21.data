@@ -1,0 +1,32 @@
+  Measurement Number     Measurement type
+                  21                 STDP
+
+      Measurement ID                     
+       739956.510381                     
+
+  Pre. pulse voltage    Pre. tail voltage     Pre. pulse shape     Pre. pulse width        Pre Max delta
+                  -1                    1                    1                1e-05               0.0009
+
+ Post. pulse voltage   Post. tail voltage    Post. pulse shape    Post. pulse width       Post Max delta
+                  -1                    1                    1                1e-05               0.0009
+
+          Tail width       Rise\Fall time                Steps     Measure voltage 
+               0.001                1e-06                   10                 0.1 
+
+        Potentiation   RealMeasuredPoints                   10
+
+Potentiation            HRS            LRS
+0.0000e+00   2.0947e+06   2.1872e+06
+1.0000e-04   2.1259e+06   2.1853e+06
+2.0000e-04   2.1268e+06   2.1949e+06
+3.0000e-04   2.0492e+06   2.0661e+06
+4.0000e-04   2.0416e+06   2.0483e+06
+5.0000e-04   2.0730e+06   1.9976e+06
+6.0000e-04   1.9335e+06   2.1017e+06
+7.0000e-04   2.0644e+06   2.0259e+06
+8.0000e-04   1.9708e+06   1.9992e+06
+9.0000e-04   2.0416e+06   2.0259e+06
+
+
+
+
